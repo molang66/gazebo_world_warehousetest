@@ -1,0 +1,14 @@
+material robot/gradient
+{
+    receive_shadows off
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                gradient-slider.jpg
+            }
+        }
+    }
+}
